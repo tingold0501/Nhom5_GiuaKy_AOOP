@@ -1,0 +1,32 @@
+(Thêm slide Process và Thread)
+==============PROCESS==============
+-Kết hợp bộ vi xử lí với Hệ điều hành  plattform
+-1 tiến trình có nghĩa là đại diện cho 1 ct đang thưc thi
+-khi plattform đang thực thi thì hệ điều hành sẽ cung câp tài nguyên cho plattfrom (ram, ...)
+-nhiêu ct đang chạy thì đang đa tiến trình -> đa nhiệm
+-Time sharing 
+-Xử lí đồng thời (current)
+-XỬ lí song song ()
+-Đa xử lí (đa tiến trình)
+-Hdh đang quản lí nhiều tiến trình -> chạy song song -> gọi là hđh đa tiến trình (đa nhiệm) ->lquan đến keywork (đồng thời, song song)
+
+-hđh điều phối tài nguyên cho từng ct qua cơ chế Time Sharing.
+-Xử lí quá nhanh nên ta tưởng đang đồng thời, thực ra mỗi thằng chỉ xử lí trong 1 time nhất định -> gla Time Sharing
+
+-Mỗi tiến trình (process) chạy sẽ có mỗi code xử lí và dữ liệu.
+-Mỗi tiến trình nằm trong vùng địa chỉ (ram) khác nhau.
+-Lập lịch (scheduler)
+-1 process này gọi đến process kia thì cực kí tốn chi phí
+-trong 1 process ta có nhu cầu xử lí dữ liệu nhanh hơn ->Thread ra đời
+-Process (chứa data lớn, code) -> chạy theo tuần tự => lâu, tốn nhiều tài nguyên CPU, RAM.
+-Process đc cấp tài nguyên -> tài nguyên is limited -> phương án tồi.
+============THREAD===============
+(1-làm rõ cú phap Thread)
+(2-ví dụ về thread)
+(3-trước khi làm về vd Thread thì làm ko Thread)
+(4-đụng độ trong Thread)
+-trong 1 process, gồm nhiều thread -> đỡ tốn chi phí -> xử lí đồng thời, song song -> tận dung đc tài nguyên mt, nhanh
+-trong 1 thread xử lí đồng thời 
+-Dữ liệu process nào thì process đó thực thi
+-Process ko tốn tài nguyên > gla Thread
+
