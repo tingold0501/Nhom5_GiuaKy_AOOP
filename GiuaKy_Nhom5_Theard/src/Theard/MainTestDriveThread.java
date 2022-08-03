@@ -9,10 +9,14 @@ public class MainTestDriveThread {
         // Multi3 m3 = new Multi3();
         // Thread t1 = new Thread(m3);
         // t1.start();
+        // ThreadGroupDemo threadGroupDemo = new ThreadGroupDemo();
+        // Thread t1 = new Thread(threadGroupDemo);
+        // t1.start();
 
         // SleepMethod1 sleepMethod1 = new SleepMethod1();
-        // SleepMethod1 sleepMethod2 = new SleepMethod1();
         // sleepMethod1.start();
+
+        // SleepMethod1 sleepMethod2 = new SleepMethod1();
         // sleepMethod2.start();
 
         // SleepMethod2 sleepMethod2 = new SleepMethod2();
@@ -54,6 +58,9 @@ public class MainTestDriveThread {
         // multiPrority2.setPriority(Thread.MAX_PRIORITY);
         // multiPrority1.start();
         // multiPrority2.start();
+
+        ThreadGetId threadGetId = new ThreadGetId();
+        threadGetId.start();
 
         // DaemonThread1 daemonThread1 = new DaemonThread1();
         // DaemonThread1 daemonThread2 = new DaemonThread1();
