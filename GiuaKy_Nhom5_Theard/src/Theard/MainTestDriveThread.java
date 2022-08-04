@@ -59,8 +59,8 @@ public class MainTestDriveThread {
         // multiPrority1.start();
         // multiPrority2.start();
 
-        ThreadGetId threadGetId = new ThreadGetId();
-        threadGetId.start();
+        // ThreadGetId threadGetId = new ThreadGetId();
+        // threadGetId.start();
 
         // DaemonThread1 daemonThread1 = new DaemonThread1();
         // DaemonThread1 daemonThread2 = new DaemonThread1();
